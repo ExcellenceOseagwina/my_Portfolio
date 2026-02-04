@@ -6,7 +6,7 @@
 body {
   font-family: Lato;
   margin: 0;
-  background-color: rgb(34, 32, 32);
+  background-color: rgb(0, 0, 0);
   padding: 0;
 }
 
@@ -40,7 +40,7 @@ body {
   text-align: center;
 }
 .header .header-link:hover {
-  color: rgb(34, 32, 32);
+  color: rgb(0, 0, 0);
 }
 .header .header-link {
   text-decoration: none;
@@ -57,7 +57,7 @@ body {
   color: rgb(255, 255, 255);
 }
 .header-link:hover .header-link:hover {
-  color: rgb(34, 32, 32);
+  color: rgb(0, 0, 0);
   transition: 0.1s ease-in;
 }
 
@@ -94,7 +94,7 @@ body {
   font-family: inherit;
   font-weight: bold;
   border: 2px rgb(25, 25, 25) solid a;
-
+  border-text-decoration: none;
 }
 .section-1 .section-1-btn a {
   padding: 0px 20px;
@@ -114,12 +114,12 @@ body {
 }
 
 .btn-2:hover {
-  background-color: rgb(34, 32, 32);
+  background-color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
 .btn-1:hover {
-  background-color: rgb(34, 32, 32);
+  background-color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
@@ -254,7 +254,7 @@ body {
   background-color: rgb(240, 233, 233);
   font-weight: bold;
   list-style: none;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.8235294118);
   border-radius: 5px;
   padding: 5px;
 }
@@ -601,7 +601,7 @@ body {
 }
 .section-4 .frontend-tools,
 .section-4 .backend-tools {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.8235294118);
   background-color: rgba(24, 23, 23, 0.918);
   width: 32em;
   height: 7em;
@@ -727,7 +727,7 @@ body {
   gap: 1em;
   position: relative;
   margin-left: 9.5em;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.8235294118);
   width: 12em;
   height: 3em;
   padding: 0.3em 0.56em 0 0.56em;
@@ -749,7 +749,7 @@ body {
 /*Section Seven*/
 .section-7 {
   padding: 1.5em 0;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.8235294118);
   color: #ffffff;
 }
 .section-7 h1 {
@@ -791,7 +791,7 @@ body {
   cursor: pointer;
 }
 .section-7 button:hover {
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.8235294118);
   color: #ffffff;
   border: 0.3px solid #ffffff;
 }
