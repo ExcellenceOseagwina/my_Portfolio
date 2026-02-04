@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/*Colors*/
+$prim-color: #ffffff;
+$second-color: rgb(34, 32, 32);
+$second-color-2: #000000;
+$most-features: none;
+$cursor-type: pointer;
+$most-position: relative;
+$flex-dir-2: column;
+$default: auto;
+$default-style: solid;
+$size: 100%;
+$one-em: 1.5em;
+
+/*Body*/
+$body-font: Lato;
+$body-margin: 0;
+
+/*header*/
+$header-bg: rgba(39, 38, 38, 0.5);
+$header-padding: 1px;
+$header-position: fixed;
+$header-z-index: 2;
+$small-fz: 1em;
+$smaller-fz: 0.5em;
+
+//nav
+$nav-display: flex;
+$nav-flex-direction: row;
+$nav-gap: 15em;
+
+//h1
+$h1-margin-left: 1em;
+
+//ul
+$ul-display: flex;
+$ul-gap: 0.5rem;
+
+//li
+$li-border-radius: 10px;
+$li-height: 27px;
+$li-width: 99px;
+$li-text-align: center;
+$li-padding-top: 4px;
+
+//a
+$a-font-weight: bold;
+
+//Header Pseudo Class
+//li class hover
+$li-hover-transition: 0.1s ease-in;
+
+//a class active
+$a-active-color: rgb(255, 255, 255);
+
+//a class hover
+$a-hover-transition: 0.1s ease-in;
