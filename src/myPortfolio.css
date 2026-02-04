@@ -93,8 +93,7 @@ body {
   border-radius: 10px;
   font-family: inherit;
   font-weight: bold;
-  border: 2px rgb(25, 25, 25) solid a;
-  border-text-decoration: none;
+  border: 2px rgb(25, 25, 25) solid;
 }
 .section-1 .section-1-btn a {
   padding: 0px 20px;
@@ -794,6 +793,7 @@ body {
   background-color: rgba(0, 0, 0, 0.8235294118);
   color: #ffffff;
   border: 0.3px solid #ffffff;
+  transition: 0.3s ease-in;
 }
 .section-7 .some-input {
   display: flex;
