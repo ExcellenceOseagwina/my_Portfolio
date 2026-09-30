@@ -3,3 +3,202 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+    background: #050807;
+    color: #e6fff5;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    
+    inset: 0;
+    z-index: -2;
+    background-image:
+        linear-gradient(rgba(0, 255, 156, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 156, 0.035) 1px, transparent 1px);
+
+    background-size: 50px 50px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    background: #00ffbf;
+    opacity: 0.04;
+    border-radius: 50%;
+    filter: blur(120px);
+    top: 10%;
+    left: -200px;
+    z-index: -1;
+}
+
+/* Header */
+header {
+    background-color: #050807d8;
+    padding: 1.9em;
+    font-family: monospace;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 1px rgba(255, 255, 255, 0.116) solid;
+     z-index: 1000;
+    backdrop-filter: blur(15px);
+
+}
+
+.logo {
+    p {
+        color: #5dca5f;
+    }
+
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 50em;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+.nav-list {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.365);
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: #5dc35d;
+}
+
+span {
+    color: #00bbff;
+}
+
+.surname {
+    color: #3ee386fe;
+}
+
+h1 {
+    font-size: 5em;
+    width: 20%;
+}
+
+.hero {
+    margin-top: 10em;
+    margin-left: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    line-height: 1em;
+}
+
+/* .hero-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+.whoami {
+    margin-bottom: .7em;
+}
+
+.root {
+    color: #51c34d;
+    font-family: monospace;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.occupation {
+    font-weight: bold;
+    font-size: 1.7em;
+    width: 23em;
+    color: #b3b3b3;
+}
+
+.se {
+    color: #06c5ffcf;
+}
+
+.hero-image {
+    border: 2px solid white;
+    height: 20em;
+    width: 40em;
+    background-image: url(/assets/images/excel-ose.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: .4em;
+    filter: grayscale(100%);
+    transition: .5s ease-in;
+    margin-right: 5em;
+    position: sticky;
+}
+
+.hero-image:hover {
+    filter: grayscale(0%);
+    background-size: 110%;
+    transition: .4s ease-out;
+}
+
+.what-i-can-do {
+    color: #8080809d;
+    width: 70%;
+    margin-top: 1em;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.view-projects {
+    background: #00ff9c;
+    color: #03100a;
+}
+
+.primary {
+    font-family: "Fira Code", monospace;
+    padding: 1em;
+    border-radius: .5em;
+    cursor: pointer;
+    border: 1px solid #00ff9c;
+}
+
+.view-projects:hover {
+    box-shadow: 0 0 25px rgba(0, 255, 156, 0.35);
+}
+
+.contact:hover {
+    background-color: #00ff9d33;
+}
+
+/* @media (max-width: 900px) {
+    header {
+        bottom: 39em;
+        padding: 2em;
+        
+        }
+        } */
