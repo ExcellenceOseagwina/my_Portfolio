@@ -14,7 +14,7 @@ body {
     color: #e6fff5;
     font-family: "Inter", sans-serif;
     overflow-x: hidden;
-    
+
     inset: 0;
     z-index: -2;
     background-image:
@@ -43,23 +43,23 @@ header {
     background-color: #050807d8;
     padding: 1.9em;
     font-family: monospace;
-    position:fixed;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
     border-bottom: 1px rgba(255, 255, 255, 0.116) solid;
-     z-index: 1000;
+    z-index: 1000;
     backdrop-filter: blur(15px);
 
 }
 
 .logo {
-    p {
-        color: #5dca5f;
-    }
-
     font-weight: bold;
     font-size: 1.7em;
+}
+
+.logo p {
+    color: #5dca5f;
 }
 
 .navbar {
@@ -111,12 +111,6 @@ h1 {
 .name {
     line-height: 1em;
 }
-
-/* .hero-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-} */
 
 .whoami {
     margin-bottom: .7em;
@@ -193,6 +187,92 @@ h1 {
 
 .contact:hover {
     background-color: #00ff9d33;
+}
+
+
+/* About */
+/* .about {
+} */
+
+.about-heading {
+    display: flex;
+    font-family: monospace;
+    margin: 10em 0 3em 5em;
+
+}
+
+.about-heading h2 {
+    font-size: 3.5em;
+}
+
+.about-heading span {
+    font-size: 1.5em;
+    color: #00ff9c;
+}
+
+hr {
+    background: #084d32;
+    border: none;
+    width: 1px;
+    height: 4em;
+    transform: rotate(90deg);
+    margin-left: 3em;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-text {
+    margin-left: 3em;
+    color: #b3b3b3;
+}
+
+.me {
+    font-size: 1.1em;
+    margin-bottom: 2.3em;
+    width: 90%;
+}
+
+.about-terminal {
+    border-left: 4px solid #00ffbf;
+    font-family: "Fira Code", monospace;
+}
+
+.about-terminal p {
+    margin-left: 1em;
+    margin-bottom: 3em;
+}
+
+.green {
+    background-color: #00ff9c;
+}
+
+.about-card {
+    background: rgba(0, 255, 156, 0.025);
+    border-radius: 1em;
+    height: 20em;
+    margin-right: 2em;
+    text-align: center;
+    padding-top: 4em;
+    border: 0.1px rgba(255, 255, 255, 0.112) solid;
+}
+
+.about-card p {
+    width: 60%;
+    margin: auto;
+
+}
+
+.about-card .fa-solid {
+    color: #0ee895;
+    font-size: 6em;
+    margin-bottom: .4em;
+}
+
+.about-card h3 {
+    margin-bottom: .5em;
 }
 
 /* @media (max-width: 900px) {
