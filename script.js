@@ -25,7 +25,7 @@ links.forEach(link => {
 });
 
 
-// Current year
+
 
 document.getElementById("year").textContent =
     new Date().getFullYear();
