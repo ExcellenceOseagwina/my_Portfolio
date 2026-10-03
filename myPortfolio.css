@@ -642,6 +642,24 @@ hr {
     cursor: pointer;
 }
 
+footer {
+    background-color: #05080735;
+    padding: 3em;
+    border-top: 1px solid white;
+    text-align: center;
+    font-family: monospace;
+}
+
+footer p {
+    color: #00ff9c;
+    font-size: 1em;
+}
+
+footer span {
+    color: #b3b3b3;
+    font-size: .8em;
+}
+
 /* Tablet & small laptop */
 @media (max-width: 1200px) {
     .hero {
@@ -750,6 +768,8 @@ hr {
         max-width: 30em;
     }
 }
+
+
 
 /* Mobile navigation */
 @media (max-width: 900px) {
