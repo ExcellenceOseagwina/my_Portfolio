@@ -315,19 +315,16 @@ hr {
 }
 
 .skills-grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-shrink: 1 1 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    padding: 3em 6em;
 }
 
 .skill-card {
     background-color: #030906dc;
     border: 1px rgba(7, 37, 5, 0.669) solid;
     width: 35em;
-
-    margin-left: 2em;
-    gap: 0px;
     margin-bottom: 1em;
     border-radius: 5px;
     padding: 3em 2em;
@@ -377,19 +374,21 @@ hr {
 }
 
 .project-grid {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     flex-shrink: 1 1 auto;
     align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    gap: 2em;
+    padding: 1em  4em;
+
 }
 
 .project-card {
     background-color: #030906ee;
     border: 1px rgba(7, 37, 5, 0.457) solid;
-    width: 30%;
-    height: 30%;
+    width: 90%;
+    gap: 10px;
+    height: 90%;
     border-radius: 5px;
     padding: 3em 2em;
     cursor: pointer;
