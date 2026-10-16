@@ -28,3 +28,23 @@ document.addEventListener("keydown", (e) => {
 window.addEventListener("resize", () => {
     if (window.innerWidth > 900) setMenu(false);
 });
+
+// Scroll reveal
+const observer = new IntersectionObserver(
+    (entries, observer) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("active");
+
+                observer.unobserve(entry.target);
+            }
+        });
+    },
+    {
+        threshold: 0.15
+    }
+);
+
+document.querySelectorAll(".reveal").forEach((element) => {
+    observer.observe(element);
+});
