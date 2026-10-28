@@ -167,7 +167,7 @@ header {
     aspect-ratio: 2 / 1;
     border: 2px solid white;
     border-radius: 0.4em;
-    background: url("./assets/images/excel-ose.jpg") center / cover no-repeat;
+    background: url("./assets/image/excel-ose.jpg") center / cover no-repeat;
     filter: grayscale(100%);
     transition: filter 0.4s ease;
     height: 30em;
